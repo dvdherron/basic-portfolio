@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "../components/head";
+import StoryblokService from "../utils/storyblok-service";
 
 export default ({ children, settings = {} }) => (
   <div>
@@ -47,16 +48,7 @@ export default ({ children, settings = {} }) => (
         padding-right: 20px;
         box-sizing: border-box;
       }
-
-      #nprogress .bar {
-        background: #29d;
-        position: fixed;
-        z-index: 1031;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-      }
     `}</style>
+    {StoryblokService.bridge()}
   </div>
 );
