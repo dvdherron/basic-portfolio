@@ -1,10 +1,12 @@
 import Placeholder from "./Placeholder";
 import Teaser from "./Teaser";
 import Panel from "./Panel";
+import Nav from "./Nav";
 
 const Components = {
   teaser: Teaser,
-  panel: Panel
+  panel: Panel,
+  nav: Nav
 };
 
 const Component = ({ blok }) => {
