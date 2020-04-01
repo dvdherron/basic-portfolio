@@ -5,13 +5,14 @@ import "./Teaser.scss";
 const Teaser = ({ blok }) => {
   return (
     <SbEditable content={blok}>
-      <div className="container--header">
-        <header>
-          <h1>{blok.headline}</h1>
+      <header className="header--home">
+        <h1>{blok.headline}</h1>
+        <div className="container--home__text">
           <p>{blok.body}</p>
           <p>{blok.graf}</p>
-        </header>
-      </div>
+        </div>
+        <img src={blok.image}></img>
+      </header>
     </SbEditable>
   );
 };

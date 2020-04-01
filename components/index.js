@@ -3,6 +3,7 @@ import Teaser from "./Teaser";
 import Panel from "./Panel";
 import Nav from "./Nav";
 import ImageProfile from "./ImageProfile";
+import "./index.scss";
 
 const Components = {
   teaser: Teaser,

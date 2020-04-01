@@ -13,6 +13,7 @@
     "marked": "^0.8.2",
     "next": "^9.3.3",
     "node-sass": "^4.13.1",
+    "now": "^17.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "storyblok-js-client": "^2.1.0",
