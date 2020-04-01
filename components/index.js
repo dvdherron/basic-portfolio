@@ -2,11 +2,13 @@ import Placeholder from "./Placeholder";
 import Teaser from "./Teaser";
 import Panel from "./Panel";
 import Nav from "./Nav";
+import ImageProfile from "./ImageProfile";
 
 const Components = {
   teaser: Teaser,
   panel: Panel,
-  nav: Nav
+  nav: Nav,
+  imageProfile: ImageProfile
 };
 
 const Component = ({ blok }) => {
