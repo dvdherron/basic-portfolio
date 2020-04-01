@@ -17,7 +17,7 @@ export default class extends React.Component {
 
     let [page, settings] = await Promise.all([
       StoryblokService.get(`cdn/stories${asPath}`),
-      StoryblokService.get(`cdn/stories/${query.language}/settings`)
+      StoryblokService.get(`cdn/stories/${query}/settings`)
     ]);
 
     return {
