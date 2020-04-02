@@ -3,13 +3,15 @@ import Teaser from "./Teaser";
 import Panel from "./Panel";
 import Nav from "./Nav";
 import ImageProfile from "./ImageProfile";
+import Column from "./Column";
 import "./index.scss";
 
 const Components = {
   teaser: Teaser,
   panel: Panel,
   nav: Nav,
-  imageProfile: ImageProfile
+  imageProfile: ImageProfile,
+  column: Column
 };
 
 const Component = ({ blok }) => {
