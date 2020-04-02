@@ -1,0 +1,50 @@
+.work--item {
+  margin-block-end: 2rem;
+}
+
+.work--item img {
+  border: 2px hsl(0, 0%, 0%) solid;
+}
+
+.work--item h2 {
+  font-weight: 804;
+  font-size: 1.938rem;
+}
+
+.work--item p {
+  font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  line-height: 118%;
+  margin-block-start: 1rem;
+  margin-block-end: 0.5rem;
+}
+
+.work--item > a {
+  text-decoration: none;
+  margin-block-start: 1rem;
+  font-weight: 600;
+}
+
+.work--item > a:hover {
+  text-decoration: underline;
+}
+
+.work--item > a:active {
+  color: black;
+}
+
+.work--item > a:visited {
+  color: purple;
+}
+
+@media (min-width: 700px) {
+  .work--item p {
+    inline-size: 60%;
+    padding-inline-start: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .work--item > a {
+    padding-inline-start: 1rem;
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../components/Page";
 import Layout from "../components/layout";
 import StoryblokService from "../utils/storyblok-service";
+import "./work.scss";
 
 export default class extends React.Component {
   constructor(props) {
@@ -36,8 +37,23 @@ export default class extends React.Component {
 
     return (
       <Layout settings={settingsContent}>
-        {/* We will define these settings later on */}
-        <Page body={bodyOfPage} />
+        <main>
+          {bodyOfPage.map((panel, index) => (
+            <div className="work--item" key={index}>
+              <h2>{panel.title}</h2>
+              <img src={panel.image}></img>
+              <p>{panel.text}</p>
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={panel.link.cached_url}
+              >
+                view project
+              </a>
+            </div>
+          ))}
+        </main>
       </Layout>
     );
   }
