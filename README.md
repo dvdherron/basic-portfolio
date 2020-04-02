@@ -1,12 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
-
 ## A basic portfolio
 
 This portfolio was made as part of an assignment at Hyper Island. We were tasked with building a portfolio using Next.js, React, and Storyblok.
 
-## Learn More
+## Biggest Challenges
 
-To learn more about Next.js, take a look at the following resources:
+-- Understanding how Next and Storyblok work together.
+-- Storyblok doesn't really have a console, so it's hard to catch silent errors
+-- formatting content from storyblok
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Biggest Learnings
+
+-- I learned to (sometimes) slow down and try to force myself to plan before I start coding.
+-- I practiced asking coding questions. You really have to think about how to formulate a question properly in order to help others be able to help you.
+-- Always check to make sure your letter casing matches when naming things in multiple places!
