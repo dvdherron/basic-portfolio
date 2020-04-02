@@ -6,8 +6,8 @@
   // color: hsl(256, 96%, 38%);
   font-size: 2.3rem;
   line-height: 1.2;
-  margin-bottom: 1.1rem;
-  margin-block-end: 1.1rem;
+  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
   font-weight: 804;
 }
 
@@ -29,9 +29,10 @@
   .header--home {
     display: grid;
     grid-template-columns: 5vw 1fr 1fr 1fr 1fr 5vw;
-    grid-template-rows: min-content 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    max-width: 880px;
     grid-gap: 20px;
-    max-width: 1000px;
+    margin: 0 auto;
   }
 
   .header--home h1 {
